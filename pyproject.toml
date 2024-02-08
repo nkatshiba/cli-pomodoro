@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pyfiglet = "^1.0.2"
+simpleaudio = "^1.0.4"
 
 
 [build-system]

@@ -14,7 +14,8 @@ def display_centered_text(win, text):
     start_y = (height - len(lines)) // 2
     for i, line in enumerate(lines):
         start_x = (width - len(line)) // 2
-        win.addstr(start_y + i, start_x, line)
+        # win.addstr(start_y + i, start_x, line)
+        win.addstr(start_y + i, start_x, line, curses.color_pair(1))
     win.refresh()
 
 def countdown(pomodoro_length, win):
@@ -39,6 +40,10 @@ def main(stdscr):
     curses.curs_set(0)
     # Clear the screen
     stdscr.clear()
+    # Start color mode
+    curses.start_color()
+    # Define color pair 1 to be yellow on black
+    curses.init_pair(1, curses.COLOR_YELLOW, curses.COLOR_BLACK)
     # Ask the user for the duration of the Pomodoro session
     stdscr.addstr(f"Enter the duration of the Pomodoro session in minutes (default {DEFAULT_TIME}): ")
     stdscr.refresh()
