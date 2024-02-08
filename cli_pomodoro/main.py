@@ -2,6 +2,7 @@ import time
 import curses
 from datetime import timedelta
 from pyfiglet import Figlet
+import simpleaudio as sa  # Import the simpleaudio module
 
 DEFAULT_TIME = 35
 
@@ -14,7 +15,6 @@ def display_centered_text(win, text):
     start_y = (height - len(lines)) // 2
     for i, line in enumerate(lines):
         start_x = (width - len(line)) // 2
-        # win.addstr(start_y + i, start_x, line)
         win.addstr(start_y + i, start_x, line, curses.color_pair(1))
     win.refresh()
 
@@ -34,6 +34,9 @@ def countdown(pomodoro_length, win):
         return
     display_centered_text(win, "Pomodoro complete!")
     time.sleep(2)
+    wave_obj = sa.WaveObject.from_wave_file('bell.wav')  # Load the WAV file
+    play_obj = wave_obj.play()  # Play the WAV file
+    play_obj.wait_done()  # Wait until sound has finished playing
 
 def main(stdscr):
     # Turn off cursor visibility
