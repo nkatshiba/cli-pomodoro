@@ -46,7 +46,7 @@ def main(stdscr):
     # Start color mode
     curses.start_color()
     # Define color pair 1 to be yellow on black
-    curses.init_pair(1, curses.COLOR_YELLOW, curses.COLOR_BLACK)
+    curses.init_pair(1, curses.COLOR_CYAN, curses.COLOR_BLACK)
     # Ask the user for the duration of the Pomodoro session
     stdscr.addstr(f"Enter the duration of the Pomodoro session in minutes (default {DEFAULT_TIME}): ")
     stdscr.refresh()
