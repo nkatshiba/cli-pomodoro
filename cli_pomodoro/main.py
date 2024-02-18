@@ -33,9 +33,16 @@ def countdown(pomodoro_length, win):
         time.sleep(2)
         return
     display_centered_text(win, "Pomodoro complete!")
-    time.sleep(2)
+    time.sleep(1)
     wave_obj = sa.WaveObject.from_wave_file('bell.wav')  # Load the WAV file
+    wave2_obj = sa.WaveObject.from_wave_file('snare.wav')  # Load the WAV file
+
+
     play_obj = wave_obj.play()  # Play the WAV file
+    time.sleep(1.35)
+    play_obj = wave2_obj.play()  # Play the WAV file
+    time.sleep(0.30)
+    play_obj = wave2_obj.play()  # Play the WAV file
     play_obj.wait_done()  # Wait until sound has finished playing
 
 def main(stdscr):

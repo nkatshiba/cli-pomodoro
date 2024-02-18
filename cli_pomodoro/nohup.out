@@ -1,0 +1,56 @@
+Warning: option --override-display-fps was replaced with --display-fps-override and might be removed in the future.
+   cplayer: The shared-script-properties property is deprecated and will be removed in the future. Use the user-data property instead.
+  autoload: Adding bell_old.wav 
+   cplayer:  (+) Audio --aid=1 (pcm_s24le 2ch 44100Hz)
+display-tags: File tags:
+display-tags:  Artist: HeaZy
+display-tags:  Album: ALL GENRE KITS 
+display-tags:  Comment: LOVE YOU GUYS
+display-tags:  Title: @hiheazy
+ ao/pipewire: The --audio-stream-silence option is set. This will break certain player behavior.
+     cplayer: AO: [pipewire] 44100Hz stereo 2ch doublep
+  statusline: A: 00:00:00 / 00:00:02 (0%)
+  statusline: A: 00:00:00 / 00:00:02 (8%)
+  statusline: A: 00:00:00 / 00:00:02 (18%)
+  statusline: A: 00:00:00 / 00:00:02 (28%)
+  statusline: A: 00:00:00 / 00:00:02 (30%)
+  statusline: A: 00:00:00 / 00:00:02 (32%)
+  statusline: A: 00:00:00 / 00:00:02 (34%)
+  statusline: A: 00:00:00 / 00:00:02 (36%)
+  statusline: A: 00:00:00 / 00:00:02 (38%)
+  statusline: A: 00:00:01 / 00:00:02 (40%)
+     cplayer: Exiting... (Quit)
+  statusline: A: 00:00:01 / 00:00:02 (40%)
+Warning: option --override-display-fps was replaced with --display-fps-override and might be removed in the future.
+   cplayer: The shared-script-properties property is deprecated and will be removed in the future. Use the user-data property instead.
+      file: Cannot open file 'bell': No such file or directory
+    stream: Failed to open bell.
+   cplayer: Exiting... (Errors when loading file)
+Warning: option --override-display-fps was replaced with --display-fps-override and might be removed in the future.
+   cplayer: The shared-script-properties property is deprecated and will be removed in the future. Use the user-data property instead.
+  autoload: Adding bell_old.wav 
+   cplayer:  (+) Audio --aid=1 (pcm_s24le 2ch 44100Hz)
+display-tags: File tags:
+display-tags:  Artist: HeaZy
+display-tags:  Album: ALL GENRE KITS 
+display-tags:  Comment: LOVE YOU GUYS
+display-tags:  Title: @hiheazy
+ ao/pipewire: The --audio-stream-silence option is set. This will break certain player behavior.
+     cplayer: AO: [pipewire] 44100Hz stereo 2ch doublep
+  statusline: A: -00:00:00 / 00:00:02 (0%)
+  statusline: A: 00:00:00 / 00:00:02 (7%)
+  statusline: A: 00:00:00 / 00:00:02 (17%)
+  statusline: A: 00:00:00 / 00:00:02 (28%)
+  statusline: A: 00:00:00 / 00:00:02 (38%)
+  statusline: A: 00:00:01 / 00:00:02 (45%)
+  statusline: A: 00:00:01 / 00:00:02 (47%)
+  statusline: A: 00:00:01 / 00:00:02 (49%)
+  statusline: A: 00:00:01 / 00:00:02 (51%)
+  statusline: A: 00:00:01 / 00:00:02 (58%)
+  statusline: A: 00:00:01 / 00:00:02 (67%)
+  statusline: A: 00:00:01 / 00:00:02 (69%)
+  statusline: A: 00:00:01 / 00:00:02 (71%)
+  statusline: A: 00:00:01 / 00:00:02 (73%)
+  statusline: A: 00:00:01 / 00:00:02 (75%)
+     cplayer: Exiting... (Quit)
+  statusline: A: 00:00:01 / 00:00:02 (75%)
